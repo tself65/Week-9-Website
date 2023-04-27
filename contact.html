@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonzai Trees Website</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body class="container" style="background-color: black; color: white">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Bushido Bonsai Trees</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-control="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Cart
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Add to Cart</a>
+                    <a class="dropdown-item" href="#">View Cart</a>
+                    <a class="dropdown-item" href="#">Empty Cart</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Leave us a Message</h1><br>
+    
+    <form>
+        <div class="form-row">
+            <div class="col">
+                <label for="inputFirstName">First Name</label>
+              <input type="text" class="form-control" id="inputFirstName">
+            </div>
+            <div class="col">
+                <label for="inputLastName">Last Name</label>
+              <input type="text" class="form-control" id="inputLastName">
+            </div>
+            
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <label for="inputEmail">Email Address</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col">
+                <label for="inputPhone">Phone Number</label>
+                <input type="tel" class="form-control" id="inputPhone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="formMessage">Message</label>
+            <textarea class="form-control" id="formMessage" rows="3"></textarea>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form><br>
+
+    <h1>Or Contact Us Directly: </h1>
+   <div class="row">
+    <div class="col-sm-6">
+     <div class="card" style="width: 18rem; color: black;">
+        <img src="bonsai tree 1.jpg" class="card-img-top" alt="Bonsai tree">
+        <div class="card-body">
+          <h5 class="card-title">Bushido Bonsai</h5>
+          <h7> 1234 South Tree way Edo, Japan</h7>
+           <ul class="list-group list-group-flush">
+            <li class="list-group-item">Phone: 123-456-7890</li>
+            <li class="list-group-item">Email: BushidoBonsai@gmail.com</li>
+           </ul> 
+        </div>
+      </div> 
+    </div>  
+    <div class="col-sm-6">
+        <div class="card" style="width: 18rem; color: black;">
+           <img src="bonsai tree 4.jpg" class="card-img-top" alt="Bonsai tree">
+           <div class="card-body">
+             <h5 class="card-title">Social Media</h5>
+             <h7>Find us on</h7>
+              <ul class="list-group list-group-flush">
+               <li class="list-group-item">Facebook: Bushido Bonsai Trees</li>
+               <li class="list-group-item">Instagram: BushidoBT</li>
+              </ul> 
+           </div>
+         </div> 
+       </div>    
+   </div>   
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
